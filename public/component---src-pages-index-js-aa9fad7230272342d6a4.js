@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{RXBc:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return o}));var c=e("q1tI"),u=e.n(c);function o(){return u.a.createElement("div",null,"scottblechman.dev")}}}]);
-//# sourceMappingURL=component---src-pages-index-js-aa9fad7230272342d6a4.js.map
