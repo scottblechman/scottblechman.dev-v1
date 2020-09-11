@@ -4,14 +4,14 @@ export const Navbar = styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0 3% 0 3%;
+    padding: 0 3em 0 3em;
 `;
 
 export const NavbarLinks = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 20%;
+    width: 16em;
 `;
 
 export const VerticalCenter = styled.div`
