@@ -19,14 +19,9 @@ export const Global = createGlobalStyle`
             #048ba8, #16db93
             );
         color: #f5f5f5;
-        font-family: 'Open Sans', sans-serif;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-    }
-
-    h1, h2, h3, h4, h5, h6, a {
-        font-family: 'Poppins', sans-serif;
     }
 
     a { 
