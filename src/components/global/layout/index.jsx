@@ -1,11 +1,11 @@
 import React from 'react';
 import { Global } from './styles';
 
-export default function Body(props) {
+export default function Layout({ children}) {
     return (
       <>
         <Global/>
-        {props.children}
+        {children}
       </>
     );
 }

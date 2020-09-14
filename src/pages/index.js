@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../components/header';
-import Body from '../components/global/body';
+import Layout from '../components/global/layout';
 
 import "normalize.css"
 
 
 export default function Home() {
   return (
-  <Body>
+  <Layout>
     <Header />
-  </Body>
+  </Layout>
   );
 }

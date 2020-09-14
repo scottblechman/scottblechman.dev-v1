@@ -4,20 +4,20 @@ export const Navbar = styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0.5em 3em 0 3em;
+    padding: 0.5rem 3rem 0 3rem;
 `;
 
 export const NavbarLinks = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 16em;
+    width: 16rem;
 `;
 
 export const VerticalCenter = styled.div`
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 `;
@@ -32,8 +32,8 @@ export const SvgImage = styled.img`
     }
 
     @media (max-width: 768px) {
-        margin-top: 2em;
-        margin-left: 2em;
+        margin-top: 2rem;
+        margin-left: 2rem;
     }
 
     @media (max-width: 640px) {
@@ -57,5 +57,9 @@ export const Description = styled.div`
         @media (max-width: 768px) {
             margin: 2rem 0 0 1rem;
         }
+    }
+
+    button {
+        margin: 1.5em auto;
     }
 `;
