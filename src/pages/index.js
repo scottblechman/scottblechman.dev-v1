@@ -1,5 +1,14 @@
-import React from "react"
+import React from 'react';
+import Header from '../components/header';
+import Layout from '../components/global/layout';
+
+import "normalize.css"
+
 
 export default function Home() {
-  return <div>scottblechman.dev</div>
+  return (
+  <Layout>
+    <Header />
+  </Layout>
+  );
 }
