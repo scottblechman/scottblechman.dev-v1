@@ -12,6 +12,7 @@ export const NavbarLinks = styled.div`
     flex-direction: row;
     justify-content: space-between;
     width: 16rem;
+    display: none;
 `;
 
 export const VerticalCenter = styled.div`
